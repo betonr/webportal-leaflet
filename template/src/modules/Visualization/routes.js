@@ -1,3 +1,4 @@
+
 export default [
   {
     path: '/',
@@ -5,12 +6,12 @@ export default [
     children: [
       {
         path: '/',
-        redirect: '/home',
+        redirect: '/home'
       },
       {
         path: '/home',
         name: 'Home',
-        component: import('./pages/Home.vue')
+        component: () => import('./pages/Home.vue')
       }
     ]
   }

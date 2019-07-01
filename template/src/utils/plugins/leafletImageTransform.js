@@ -1,4 +1,5 @@
 //author -> https://github.com/ScanEx/Leaflet.imageTransform
+/* eslint-disable */
 
 L.ImageTransform = L.ImageOverlay.extend({
     initialize: function (url, anchors, options) { // (String, LatLngBounds, Object)

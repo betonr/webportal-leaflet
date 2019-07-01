@@ -3,7 +3,7 @@ export default {
 
   state: {
     token: '',
-    client: {},
+    client: {}
   },
 
   getters: {
@@ -12,7 +12,7 @@ export default {
     },
     userClient(state) {
       return state.client
-    },
+    }
   },
 
   mutations: {

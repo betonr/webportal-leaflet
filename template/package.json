@@ -1,9 +1,9 @@
 {
-  "name": "{{ name }}",
+  "name": "my-project",
   "version": "1.0.0",
   "private": true,
-  "author": "{{ author }}",
-  "description": "{{ description }}",
+  "author": "Carlos Noronha <beto_noronha@live.com>",
+  "description": "Geo Spatial Data  - web portal",
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint --fix",

@@ -1,4 +1,4 @@
-# {{ name }}
+# my-project
 ## Portal Web -> Front-end
 
 Web Portal for visualization spatial data

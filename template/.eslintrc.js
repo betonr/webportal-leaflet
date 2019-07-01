@@ -18,7 +18,8 @@ module.exports = {
     'vue/no-use-v-if-with-v-for': 'error',
     'vue/no-v-html': 'warning',
     'vue/prop-name-casing': 'error',
-    'vue/script-indent': 'error',
+    'vue/script-indent': ['error',4,{'baseIndent': 1}],
+    'vue/html-indent': ['error',4,{'baseIndent': 1}],
     'vue/html-quotes': 'error',
     'vue/html-closing-bracket-newline': ['error', {
       'singleline': 'never',

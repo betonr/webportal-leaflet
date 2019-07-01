@@ -16,5 +16,5 @@ export default new Vuex.Store({
       keyCripto: process.env.VUE_APP_PROJECT_KEY,
       paths: ['Auth']
     })
-  ],
+  ]
 })
