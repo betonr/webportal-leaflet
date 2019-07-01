@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{ $t('visualization.home.title') }} - home
+        home
     </div>
 </template>
 
