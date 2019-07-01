@@ -1,0 +1,19 @@
+{
+  "name": "we-server",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Beto Noronha <beto_noronha@live.com>",
+  "scripts": {
+    "app": "node ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "serve": "^10.0.2",
+    "serve-favicon": "^2.5.0"
+  }
+}

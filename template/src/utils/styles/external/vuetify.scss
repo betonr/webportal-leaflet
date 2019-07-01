@@ -1,0 +1,47 @@
+.vuetify {
+  @import '~vuetify/dist/vuetify.min';
+
+  h1, h2, p, label, button, div, span {
+    font-family: var(--mainFont);
+  }
+
+  .application {
+    &.theme--light.application {
+      background: initial;
+    }
+
+    .application--wrap {
+      min-height: initial;
+    }
+
+    // fix layout
+    .col,
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .v-btn__content {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: initial;
+    }
+
+    .v-datatable {
+      .v-btn__content {
+        font-size: 13px;
+      }
+    }
+  }
+}
