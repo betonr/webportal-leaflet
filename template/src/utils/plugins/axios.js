@@ -30,7 +30,7 @@ Plugin.install = function(Vue) {
     Object.defineProperties(Vue.prototype, {
         axios: {
             get() {
-              return _axios
+                return _axios
             }
         },
         $axios: {
