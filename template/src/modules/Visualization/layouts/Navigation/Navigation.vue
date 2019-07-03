@@ -54,7 +54,7 @@
                     </v-btn>
                 </template>
 
-                <common-drop-language/>
+                <language/>
             </v-toolbar>
 
             <v-content>
@@ -65,11 +65,11 @@
 </template>
 
 <script>
-    import CommonDropLanguage from '@/modules/Visualization/components/DropLanguage'
+    import Language from './Language/Language'
 
     export default {
         components: {
-            'common-drop-language': CommonDropLanguage
+            'language': Language
         },
 
         data: () => ({
@@ -81,35 +81,5 @@
 </script>
 
 <style lang="scss">
-    .navigation_box {
-        background: #336699 !important;
-
-        .navigation__logo {
-            padding: 50px 0 35px 0;
-            text-align: center;
-            color: #FFF;
-            text-shadow: 1px 1px 5px #000;
-            font-size: 1.4em;
-        }
-
-        .list-tile__activated {
-            background: rgba(0,0,0, 0.35);
-        }
-        
-        .list-tile__box {
-            padding: 10px;
-            background: rgba(0,0,0, 0.15);
-        }
-
-    }
-    
-    .toolbar__icon-button {
-        i {
-            color: #336699 !important;
-        }
-    }
-
-    .toolbar__title {
-        color: #336699;
-    }
+    @import url('./Navigation');
 </style>

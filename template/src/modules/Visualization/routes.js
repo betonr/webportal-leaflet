@@ -1,8 +1,7 @@
-
 export default [
   {
     path: '/',
-    component: () => import('./layouts/Navigation.vue'),
+    component: () => import('./layouts/Navigation/Navigation.vue'),
     children: [
       {
         path: '/',
@@ -11,7 +10,7 @@ export default [
       {
         path: '/home',
         name: 'Home',
-        component: () => import('./pages/Home.vue')
+        component: () => import('./components/Home/Home.vue')
       }
     ]
   }

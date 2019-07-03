@@ -72,23 +72,5 @@
 </script>
 
 <style lang="scss" scoped>
-    .box-language {
-        margin-left: 15px;
-        padding: 6px 20px;
-        border-radius: 3px;
-        border: 1px solid #CCC;
-        box-shadow: 0px 0px 3px #CCC;
-        font-weight: 600;
-
-        .icon-drop-title {
-            width: 26px;
-            margin-left: -10px;
-            margin-right: 3px;
-            margin-bottom: -2px;
-        }
-    }
-    .icon-drop {
-        width: 26px;
-        margin-right: 5px
-    }
+    @import url('./Language.scss');
 </style>
