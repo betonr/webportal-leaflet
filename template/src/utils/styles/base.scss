@@ -1,1 +1,33 @@
+body {
+  font-family: var(--mainFont);
+  margin: 0;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+[v-cloak] {
+  display: none
+}
+
+// Variables
+:root {
+  --mainColor: #336699;
+  --mainGrey: #A0A1A1;
+  --mainFont: 'Roboto', sans-serif;
+  --fontSm: 14px;
+  --fontMd: 18px;
+  --fontMdLg: 24px;
+  --fontLg: 36px;
+}
+
+
+@media (max-width: 1600px) {
+  :root {
+    --fontSm: 12px;
+    --fontMd: 14px;
+    --fontMdLg: 20px;
+    --fontLg: 32px;
+  }
+}
