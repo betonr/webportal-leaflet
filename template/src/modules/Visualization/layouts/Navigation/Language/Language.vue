@@ -72,5 +72,5 @@
 </script>
 
 <style lang="scss" scoped>
-    @import url('./Language.scss');
+    @import './Language.scss';
 </style>
