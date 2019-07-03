@@ -3,8 +3,8 @@ export default {
         "layout": {
             "navigation": {
                 "title": "Portal WEB",
-                "labelBtnLogout": "Entrar",
-                "labelBtnLogin": "Sair"
+                "labelBtnLogout": "Sair",
+                "labelBtnLogin": "Entrar"
             }
         },
         "home": {
