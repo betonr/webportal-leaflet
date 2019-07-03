@@ -11,6 +11,28 @@ body {
   display: none
 }
 
+// Scroll
+.scroll {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 7.5px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #DDD; 
+    }        
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #204060; 
+        border-radius: 5px;
+    }
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #204060; 
+    }
+}
+
 // Variables
 :root {
   --mainColor: #336699;
