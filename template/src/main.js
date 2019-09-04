@@ -26,7 +26,6 @@ VeeValidateCustoms(Validator)
 
 require('font-awesome/css/font-awesome.min.css')
 require('./utils/plugins/vuetify')
-require('./utils/plugins/leaflet')
 require('./utils/plugins/axios')
 require('./utils/plugins/element')
 
