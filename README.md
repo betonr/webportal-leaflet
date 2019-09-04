@@ -18,5 +18,5 @@ $ npm install -g @vue/cli @vue/cli-init     # Install vue-cli if you haven't alr
 ### Usage
 
 ``` bash
-vue init betonr/webportal-leaflet my-project
+vue init betonr/webportal-template my-project
 ```
