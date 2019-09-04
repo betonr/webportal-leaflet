@@ -9,7 +9,7 @@
         "type": "string",
         "required": true,
         "label": "Project description",
-        "default": "Geo Spatial Data  - web portal"
+        "default": "Basic portal description  - web portal"
       },
       "author": {
         "type": "string",
