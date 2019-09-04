@@ -5,7 +5,6 @@ Web Portal for visualization spatial data
 
 ### technology
 - Vue.js (CLI 3)
-- Leaflet.js (v1.3.2)
 - Vuetify
 - Element.io
 
